@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- Inherit from the light Material Theme -->
+  <style name="ConverterTheme" parent="android:Theme.Material.Light">
+    <item name="android:colorPrimary">@color/colorPrimary</item>
+    <item name="android:colorAccent">@color/colorAccent</item>
+    <item name="android:navigationBarColor">@color/navigationBarColor</item>
+    <item name="android:statusBarColor">@color/statusBarColor</item>
+    <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    <item name="actionBarStyle">@style/ActionBar.titleTextStyle</item>
+  </style>
+  
+  <style name="ActionBar.titleTextStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+    <item name="titleTextStyle">@style/ActionBar.textColor</item>
+  </style>
+
+  <style name="ActionBar.textColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/textColorPrimary</item>
+  </style>
+  
+</resources>

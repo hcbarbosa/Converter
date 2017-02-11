@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">Conversor de Moeda</string>
+
+    <string-array name="currency_list">
+      <item>Escolha uma moeda</item>
+      <item>USD - Dólar</item>
+      <item>EUR - Euro</item>
+      <item>GBP - Libra</item>
+      <item>BTC - Bitcoin</item>
+    </string-array>
+
+    <integer-array name="currency_img_list">
+      <item>@drawable/dolar</item>
+      <item>@drawable/euro</item>
+      <item>@drawable/libra</item>
+      <item>@drawable/bitcoin</item>
+      <item>@drawable/real</item>
+    </integer-array>  
+</resources>
