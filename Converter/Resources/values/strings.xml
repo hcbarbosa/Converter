@@ -7,14 +7,12 @@
       <item>USD - Dólar</item>
       <item>EUR - Euro</item>
       <item>GBP - Libra</item>
-      <item>BTC - Bitcoin</item>
     </string-array>
 
     <integer-array name="currency_img_list">
       <item>@drawable/dolar</item>
       <item>@drawable/euro</item>
       <item>@drawable/libra</item>
-      <item>@drawable/bitcoin</item>
       <item>@drawable/real</item>
     </integer-array>  
 </resources>

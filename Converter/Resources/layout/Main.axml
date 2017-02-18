@@ -8,13 +8,16 @@
     android:paddingTop="10px">
     <Spinner
         android:id="@+id/spinnerCurrency"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="50.0dp"
-        android:popupBackground="@color/windowBackGround"
+        android:background="@color/colorPrimary"
+        android:popupBackground="@color/colorPrimary"
         android:spinnerMode="dropdown"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/spinner_style"/>
     <ImageView
         android:id="@+id/imageCurrency"
         android:src="@android:drawable/ic_menu_gallery"

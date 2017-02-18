@@ -26,7 +26,6 @@ namespace Converter
 		
 		public static void UpdateIdValues()
 		{
-			global::ModernHttpClient.Resource.String.library_name = global::Converter.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Converter.Resource.Attribute.actionBarSize;
 		}
 		
@@ -1984,19 +1983,19 @@ namespace Converter
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int bitcoin = 2130837579;
+			public const int design_fab_background = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int design_fab_background = 2130837580;
+			public const int design_snackbar_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int design_snackbar_background = 2130837581;
+			public const int dolar = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int dolar = 2130837582;
+			public const int euro = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int euro = 2130837583;
+			public const int gradient_spinner = 2130837583;
 			
 			// aapt resource value: 0x7f020050
 			public const int ic_audiotrack = 2130837584;
@@ -3071,9 +3070,6 @@ namespace Converter
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
 			
-			// aapt resource value: 0x7f080028
-			public const int library_name = 2131230760;
-			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;
 			
@@ -3134,12 +3130,6 @@ namespace Converter
 		
 		public partial class Style
 		{
-			
-			// aapt resource value: 0x7f0a0174
-			public const int ActionBar_textColor = 2131362164;
-			
-			// aapt resource value: 0x7f0a0173
-			public const int ActionBar_titleTextStyle = 2131362163;
 			
 			// aapt resource value: 0x7f0a00a1
 			public const int AlertDialog_AppCompat = 2131361953;
@@ -4253,6 +4243,9 @@ namespace Converter
 			
 			// aapt resource value: 0x7f0a0016
 			public const int Widget_MediaRouter_MediaRouteButton = 2131361814;
+			
+			// aapt resource value: 0x7f0a0173
+			public const int spinner_style = 2131362163;
 			
 			static Style()
 			{
